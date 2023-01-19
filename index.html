@@ -55,6 +55,62 @@
         left: 110px;
         bottom: 10px;
     }
+    .gender{
+        position: relative;
+        left: 20px;
+        top: 30px;
+    }
+    .tope{
+        position: relative;
+        left: 40px;
+        top: 30px;
+    }
+    .cont{
+        position: relative;
+        top: 20px;
+        left: 20px;
+    }
+    .slv{
+        position: relative;
+        left: 300px;
+        bottom: 30px;
+    }
+    .long{
+        position: relative;
+        left: 400px;
+        bottom: 30px;
+    }
+    #menu{
+      border-bottom: 1px solid black;
+    }
+    #myBtnContainer{
+       position: relative;
+       top: 30px;
+       left: 20px;
+    }
+    .itm{
+        position: relative;
+        left: 900px;
+        top: 18px;
+    }
+    #sorte{
+        position: relative;
+        bottom: 25px;
+        left: 1100px;
+    }
+    .boy{
+        left: 50px;
+        display: flex;
+        gap: 10px;
+        width: 300px;
+        height: 300px;
+    }
+    .imgs{
+        display: flex;
+        height: 300px;
+        width: 300px;
+    }
+    
 </style>
 <body>
     <div class="container">
@@ -79,14 +135,40 @@
     </div>
     <div>
         <div>
-            <p1>Men</p1>
-            <p1>Top</p1>
-            <h1>Shirts + Fannels</h1>
+            <p1 class="gender">Men</p1>
+            <p1 class="tope">Tops</p1>
+            <h1 class="cont">Shirts + Fannels</h1>
+        </div>
+        <div id="menu">
+            <p1 class="slv">Short Sleeve</p1>
+            <p1 class="long">Long Sleeves</p1>
+           
+        </div>
+    </div>
+    <div>
+        <div id="myBtnContainer">
+            <button>
+            <span class="filter">Show filter</span>
+            </button>
+        </div>
+    </div>
+    <div class="itm">(15 Items)</div>
+    <div id="sorte">
+        <input class="srch" type="text" placeholder="Sort By ⇅">
+    </div>
+    <div class="boy">
+        <div>
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw17540edb/62342750_162_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" title="Long Sleeve Hooded Twill Button-Down Shirt" alt="Long Sleeve Hooded Twill Button-Down Shirt">
+        </div>
+        <div class="imgs">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw11145931/62342750_202_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg" alt="">
         </div>
         <div>
-            <p1>Short Sleeve</p1>
-            <p1>Long Sleeve</p1>
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwaaeb84a4/62342651_150_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Long Sleeve Striped Oxford Button-Down Shirt" title="Long Sleeve Striped Oxford Button-Down Shirt" class="b-lazy b-loaded">
         </div>
+    </div>
+    <div>
+        
     </div>
 </body>
 </html>
