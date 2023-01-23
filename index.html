@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <style>
-    .container{
+    .container {
         display: flex;
         border-bottom: 1px solid black;
         border-top: 1px solid black;
         height: 80px;
         justify-content: space-between;
         text-indent: 4em;
-        background-color: whitesmoke
-        
+        background-color: whitesmoke;
+        /* position: fixed; */
+        /* margin-bottom: 20px; */
     }
-    #main{
+     /* #topss{ */
+        /* height: 500px; */
+        /* width: 100%; */
+        /* margin-bottom: -580px; */
+     /* } */
+    #main {
         display: flex;
+        /* margin-bottom: 140px; */
+        /* width: 100%; */
+        /* height: 140px; */
+    
     }
-    .srch{
+
+    .srch {
         position: relative;
         top: 20px;
         right: 50px;
@@ -29,219 +43,377 @@
         width: 200px;
         border-radius: 50px;
         text-align: center;
-        
+
     }
-    .loc{
+
+    .loc {
         font-size: 30px;
         position: relative;
         right: 70px;
         top: 25px;
     }
-    .user{
+
+    .user {
         font-size: 30px;
         position: relative;
         right: 80px;
         top: 25px;
     }
-    
-    .bag{
+
+    .bag {
         font-size: 30px;
         position: relative;
         right: 80px;
         top: 23px;
     }
-    .search{
+
+    .search {
         font-size: 25px;
         position: relative;
         left: 110px;
         bottom: 10px;
     }
-    .gender{
+
+    .gender {
         position: relative;
         left: 20px;
         top: 30px;
     }
-    .tope{
+
+    .tope {
         position: relative;
         left: 40px;
         top: 30px;
     }
-    .cont{
+
+    .cont {
         position: relative;
         top: 20px;
         left: 20px;
     }
-    .slv{
+
+    .slv {
         position: relative;
         left: 300px;
         bottom: 30px;
     }
-    .long{
+
+    .long {
         position: relative;
         left: 400px;
         bottom: 30px;
     }
-    #menu{
-      border-bottom: 1px solid black;
+
+    #menu {
+        border-bottom: 1px solid black;
     }
-    #myBtnContainer{
-       position: relative;
-       top: 30px;
-       left: 20px;
+
+    #myBtnContainer {
+        position: relative;
+        top: 30px;
+        left: 20px;
     }
-    .itm{
+
+    .itm {
         position: relative;
         left: 900px;
         top: 18px;
     }
-    #sorte{
+
+    #sorte {
         position: relative;
         bottom: 25px;
         left: 1100px;
     }
-    .boy{
+
+    .boy {
         left: 50px;
         display: flex;
         gap: 10px;
-        width: 300px;
+        width: 100%;
         height: 300px;
     }
-    .imgs{
+    .pic{
+        width: 100;
+    }
+    .pic img{
+        width: 100%;
+    }
+    .imgs {
         display: flex;
         height: 380px;
         width: 380px;
         padding-left: 1px;
     }
-    .pic{
+
+    .pic {
         display: flex;
         height: 380px;
         width: 380px;
         padding-left: 10px;
     }
-    .shirt{
+
+    .shirt {
         display: flex;
         height: 380px;
         width: 380px;
     }
-    .black{
+
+    .black {
         display: flex;
         height: 380px;
         width: 380px;
     }
-    .new{
+
+    .new {
         position: relative;
         top: 380px;
         right: 320px;
     }
-    .shirts{
+
+    .shirts {
         position: relative;
         top: 400px;
         right: 360px;
         text-overflow: clip;
         white-space: nowrap;
     }
-    .dollar{
+
+    .dollar {
         position: relative;
         top: 450px;
         right: 620px;
         white-space: nowrap;
     }
-    .colors{
+
+    .colors {
         position: relative;
         top: 480px;
         right: 800px;
         white-space: nowrap;
     }
-    .news{
+
+    .news {
         position: relative;
         top: 380px;
         right: 320px;
     }
-    .down{
+
+    .down {
         position: relative;
         top: 400px;
         right: 360px;
         white-space: nowrap;
     }
-    .com{
+
+    .com {
         position: relative;
         top: 450px;
         right: 625px;
         white-space: nowrap;
     }
-    .color{
+
+    .color {
         position: relative;
         top: 480px;
         right: 800px;
         white-space: nowrap;
     }
-    .neo{
+
+    .neo {
         position: relative;
         top: 380px;
         right: 310px;
     }
-    .dow{
+
+    .dow {
         position: relative;
         top: 400px;
         right: 340px;
         white-space: nowrap;
     }
-    .computer{
+
+    .computer {
         position: relative;
         top: 450px;
         right: 610px;
         white-space: nowrap;
     }
-    .clor{
+
+    .clor {
         position: relative;
         top: 480px;
         right: 780px;
         white-space: nowrap;
         text-overflow: clip;
     }
-    .no{
+
+    .no {
         position: relative;
         top: 380px;
         right: 310px;
     }
-    .do{
+
+    .do {
         position: relative;
         top: 400px;
         right: 340px;
         white-space: nowrap;
     }
-    .comput{
+
+    .comput {
         position: relative;
         top: 450px;
         right: 610px;
         white-space: nowrap;
     }
-    .cllor{
+
+    .cllor {
         position: relative;
         top: 480px;
         right: 790px;
         white-space: nowrap;
     }
-    .man{
+
+    .man {
         display: flex;
         margin-top: 280px;
     }
-    .mango{
-    margin-top: 160px;
+
+    .mango {
+        margin-top: 160px;
+
+    }
+
+    #head {
+        position: relative;
+        top: 150px;
+        margin-left: 20px;
+    }
+
+    #para {
+        position: relative;
+        top: 150px;
+        margin-left: 20px;
+        border-bottom: 1px solid black;
+        padding-bottom: 50px;
+
+    }
+
+    #paragraph {
+        position: relative;
+        margin-top: -80px;
+        margin-left: 730px;
+    }
+    #location{
+        margin-top: 150px;
+        /* text-indent: 4em; */
+        font-size:small;
+        margin-left: 50px;
+        /* padding: 5px; */
+    }
+    .order{
+        margin-top: 15px;
+        font-size: small;
+        margin-left: 50px;
+    }
+    #gift{
+        margin-top: 20px;
+        font-size:small;
+        margin-left: 50px;
+    }
+    #feedback{
+        margin-top: 20px;
+        font-size: small;
+        margin-left: 50px;
+    }
+    #USD{
+       margin-top: 20px;
+       font-size: small;
+       margin-left: 50px;
+    }
+    #help{
+        position: relative;
+       margin-top: -200px;
+        margin-left: 380px;
+    }.desk{
+        position: relative;
+        margin-left: 360px;
+    }
+    span{
+        margin-left: 15px;
+    }
+    .questions{
+      margin-top: -280px;
+      margin-left: 660px;
+      
+    }
+    .about{
+        margin-left: 850px;
+        margin-top: -160px;
+    }
+    .get{
+        margin-left: 1050px;
+        margin-top: -180px;
+    }
+    .email{
+        margin-left: 1100px;
+        margin-top: -10px;
+    }
+    #subscribe{
+        margin-left: 1150px;
+       
+    }
+    .for{
+        margin-left: 1050px;
+        padding-top: 20px;
+        text-decoration-line: underline;
+    }
+    .follow{
+        margin-left: 1050px;
+        padding-top: 10px;
+    }
+    #icons{
+        margin-left: 1050px;
+        /* padding: 100px; */
+        /* padding-right: 3em; */
+        /* margin: 10px; */
+        /* justify-content: space-between; */
+    }
+    .sell{
+        position: relative;
+        margin-left: 50px;
+        margin-top: 60px;
         
     }
-    #head{
+    #use{
         position: relative;
-        top: 150px;
-        margin-left: 20px;
+        margin-left: 330px;
+        margin-top: -40px;
     }
-    #para{
+    #statement{
         position: relative;
-        top: 150px;
-        margin-left: 20px;
+        margin-left: 500px;
+        margin-top: -40px;
+    }
+    .privacy{
+        position: relative;
+        margin-left: 750px;
+        margin-top: -40px;
+    }
+    .ca{
+        position: relative;
+        margin-left: 890px;
+        margin-top: -40px;
+    }
+    #right{
+        position: relative;
+        margin-left: 1100px;
+        margin-top: -40px;
     }
     
 </style>
+
 <body>
     <div class="container">
         <div id="main">
@@ -250,19 +422,18 @@
             <h3>Jeans</h3>
             <h3>Clearance</h3>
         </div>
-            <div>
-                <h1 style="text-align: center;">Aeropostale</h1>
-            </div>
+        <div>
+            <h1 style="text-align: center;">Aeropostale</h1>
+        </div>
         <div class="shop">
-           <input class="srch" type="text" placeholder="search">
-           <i class="loc fa-solid fa-location-pin"></i>
-           <i class="user fa-solid fa-user"></i>
-           <i class="bag fa-sharp fa-solid fa-bag-shopping"></i>
-           <i class="search fa-solid fa-magnifying-glass"></i>
-           
+            <input class="srch" type="text" placeholder="search">
+            <i class="loc fa-solid fa-location-pin"></i>
+            <i class="user fa-solid fa-user"></i>
+            <i class="bag fa-sharp fa-solid fa-bag-shopping"></i>
+            <i class="search fa-solid fa-magnifying-glass"></i>
         </div>
     </div>
-    <div>
+    <div id="topss">
         <div>
             <p1 class="gender">Men</p1>
             <p1 class="tope">Tops</p1>
@@ -271,13 +442,13 @@
         <div id="menu">
             <p1 class="slv">Short Sleeve</p1>
             <p1 class="long">Long Sleeves</p1>
-           
+
         </div>
     </div>
     <div>
         <div id="myBtnContainer">
             <button>
-            <span class="filter">Show filter</span>
+                <span class="filter">Show filter</span>
             </button>
         </div>
     </div>
@@ -287,118 +458,144 @@
     </div>
     <div class="boy">
         <div class="pic">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw17540edb/62342750_162_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" title="Long Sleeve Hooded Twill Button-Down Shirt" alt="Long Sleeve Hooded Twill Button-Down Shirt">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw17540edb/62342750_162_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                title="Long Sleeve Hooded Twill Button-Down Shirt" alt="Long Sleeve Hooded Twill Button-Down Shirt">
             <p class="new">New!</p>
-           <h5 class="shirts">Long Sleeves Hooded Twill Button-Down Shirt</h5>
-           <p1 class="dollar">$29.98 &nbsp;Comp.Value:$59.95</p1>
-          
+            <h5 class="shirts">Long Sleeves Hooded Twill Button-Down Shirt</h5>
+            <p1 class="dollar">$29.98 &nbsp;Comp.Value:$59.95</p1>
+
         </div>
         <div class="imgs">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw11145931/62342750_202_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg" alt="">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw11145931/62342750_202_main.jpg?sw=478&sh=557&sm=fit&sfrm=jpg"
+                alt="">
             <p class="news">New!</p>
             <h5 class="down">Long Sleeves Hooded Twill Button-Down Shirt</h5>
             <p1 class="com">$29.98 &nbsp;comp.Value:$59.95</p1>
-            
+
         </div>
         <div class="shirt">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwaaeb84a4/62342651_150_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Long Sleeve Striped Oxford Button-Down Shirt" title="Long Sleeve Striped Oxford Button-Down Shirt" class="b-lazy b-loaded">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwaaeb84a4/62342651_150_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                alt="Long Sleeve Striped Oxford Button-Down Shirt" title="Long Sleeve Striped Oxford Button-Down Shirt"
+                class="b-lazy b-loaded">
             <p class="neo">New!</p>
             <h5 class="dow">Long Sleeves Striped Oxford Button-Down Shirt</h5>
             <p1 class="computer">$29.98 &nbsp;comp.Value:$59.95</p1>
-         
+
         </div>
         <div class="black">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw7ca3e908/62342651_493_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Long Sleeve Striped Oxford Button-Down Shirt" title="Long Sleeve Striped Oxford Button-Down Shirt" class="b-lazy b-loaded">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw7ca3e908/62342651_493_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                alt="Long Sleeve Striped Oxford Button-Down Shirt" title="Long Sleeve Striped Oxford Button-Down Shirt"
+                class="b-lazy b-loaded">
             <p class="no">New!</p>
             <h5 class="do">Long Sleeves Stripped Oxford Button-Down Shirt</h5>
             <p1 class="comput">$29.98 &nbsp;comp.Value:$59.95</p1>
-           
+
         </div>
     </div>
     <div class="man">
         <div class="pic">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw64499586/62342644_095_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" title="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt" alt="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw64499586/62342644_095_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                title="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt"
+                alt="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt">
             <p class="new">New!</p>
-           <h5 class="shirts">Long Sleeves Relaxed Washed Button-Down Shirt</h5>
-           <p1 class="dollar">$32.87 &nbsp;Comp.Value:$46.95</p1>
-          
+            <h5 class="shirts">Long Sleeves Relaxed Washed Button-Down Shirt</h5>
+            <p1 class="dollar">$32.87 &nbsp;Comp.Value:$46.95</p1>
+
         </div>
         <div class="imgs">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw165e1e87/62342644_177_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" title="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt" alt="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw165e1e87/62342644_177_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                title="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt"
+                alt="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt">
             <p class="news">New!</p>
             <h5 class="down">Long Sleeves Hooded Twill Button-Down Shirt</h5>
             <p1 class="com">$32.87 &nbsp;comp.Value:$46.95</p1>
-          
+
         </div>
         <div class="shirt">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw69deedc0/62342268_674_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Long Sleeve Vertical Stripe Oxford Button-Down Shirt" title="Long Sleeve Vertical Stripe Oxford Button-Down Shirt" class="b-lazy b-loaded">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw69deedc0/62342268_674_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                alt="Long Sleeve Vertical Stripe Oxford Button-Down Shirt"
+                title="Long Sleeve Vertical Stripe Oxford Button-Down Shirt" class="b-lazy b-loaded">
             <p class="neo">New!</p>
             <h5 class="dow">Long Sleeves Hooded Twill Button-Down Shirt</h5>
             <p1 class="computer">$22.48 &nbsp;comp.Value:$44.95</p1>
-            
+
         </div>
         <div class="black">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwb2a82aec/62342268_493_alt2.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Long Sleeve Vertical Stripe Oxford Button-Down Shirt" title="Long Sleeve Vertical Stripe Oxford Button-Down Shirt" class="b-lazy b-loaded">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwb2a82aec/62342268_493_alt2.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                alt="Long Sleeve Vertical Stripe Oxford Button-Down Shirt"
+                title="Long Sleeve Vertical Stripe Oxford Button-Down Shirt" class="b-lazy b-loaded">
             <p class="no">New!</p>
             <h5 class="do">Long Sleeves Hooded Twill Button-Down Shirt</h5>
             <p1 class="comput">$22.48 &nbsp;comp.Value:$44.95</p1>
-          
+
         </div>
     </div>
     <div class="man mango">
         <div class="pic">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw3be92306/62342643_598_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt" title="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt" class="b-lazy b-loaded">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw3be92306/62342643_598_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                alt="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt"
+                title="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt" class="b-lazy b-loaded">
             <p class="new">New!</p>
-           <h5 class="shirts">Long Sleeves Hooded Twill Button-Down Shirt</h5>
-           <p1 class="dollar">$32.87 &nbsp;Comp.Value:$46.95</p1>
-         
+            <h5 class="shirts">Long Sleeves Hooded Twill Button-Down Shirt</h5>
+            <p1 class="dollar">$32.87 &nbsp;Comp.Value:$46.95</p1>
+
         </div>
         <div class="imgs">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw4d72f8cc/62342643_402_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" title="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt" alt="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw4d72f8cc/62342643_402_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                title="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt"
+                alt="Long Sleeve Relaxed Washed Plaid Flannel Button-Down Shirt">
             <p class="news">New!</p>
             <h5 class="down">Long Sleeves Hooded Twill Button-Down Shirt</h5>
             <p1 class="com">$32.87 &nbsp;comp.Value:$46.95</p1>
-          
+
         </div>
         <div class="shirt">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw5ea5123e/60177072_001_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Chicago Bulls Jersey" title="Chicago Bulls Jersey" class="b-lazy b-loaded">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw5ea5123e/60177072_001_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                alt="Chicago Bulls Jersey" title="Chicago Bulls Jersey" class="b-lazy b-loaded">
             <p class="neo">New!</p>
             <h5 class="dow">Long sleeves Hooded Twill Button-Down Shirt</h5>
             <p1 class="computer">$45.00 &nbsp;comp.Value:$64.95</p1>
-           
+
         </div>
         <div class="black">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwdff498f0/60177073_001_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Las Vegas Raiders Jersey" title="Las Vegas Raiders Jersey" class="b-lazy b-loaded">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwdff498f0/60177073_001_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                alt="Las Vegas Raiders Jersey" title="Las Vegas Raiders Jersey" class="b-lazy b-loaded">
             <p class="no">New!</p>
             <h5 class="do">Long Sleeves Hooded Twill Button-Down Shirt</h5>
             <p1 class="comput">$45.00 &nbsp;comp.Value:$64.95</p1>
-           
+
         </div>
     </div>
     <div class="man  mango">
         <div class="pic">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw5407e525/62349961_493_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Long Sleeve Oxford Button-Down Shirt" title="Long Sleeve Oxford Button-Down Shirt" class="b-lazy b-loaded">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dw5407e525/62349961_493_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                alt="Long Sleeve Oxford Button-Down Shirt" title="Long Sleeve Oxford Button-Down Shirt"
+                class="b-lazy b-loaded">
             <p class="new">New!</p>
-           <h5 class="shirts">Long Sleeves Hooded Twill Button-Down Shirt</h5>
-           <p1 class="dollar">$22.25 &nbsp;Comp.Value:$44.50</p1>
-           
+            <h5 class="shirts">Long Sleeves Hooded Twill Button-Down Shirt</h5>
+            <p1 class="dollar">$22.25 &nbsp;Comp.Value:$44.50</p1>
+
         </div>
         <div class="imgs">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwd30eae3e/60721294_420_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Long Sleeve Colorblocked Rugby Shirt" title="Long Sleeve Colorblocked Rugby Shirt" class="b-lazy b-loaded">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwd30eae3e/60721294_420_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                alt="Long Sleeve Colorblocked Rugby Shirt" title="Long Sleeve Colorblocked Rugby Shirt"
+                class="b-lazy b-loaded">
             <p class="news">New!</p>
             <h5 class="down">Long Sleeves Hooded Twill Button-Down Shirt</h5>
             <p1 class="com">$16.00 &nbsp;comp.Value:$54.95</p1>
-          
+
         </div>
         <div class="shirt">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwc4f19cd8/62342265_482_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" alt="Hooded Flannel Shirt" title="Hooded Flannel Shirt" class="b-lazy b-loaded">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwc4f19cd8/62342265_482_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                alt="Hooded Flannel Shirt" title="Hooded Flannel Shirt" class="b-lazy b-loaded">
             <p class="neo">New!</p>
             <h5 class="dow">Long Sleeves Hooded Twill Button-Down Shirt</h5>
             <p1 class="computer">$12.99 &nbsp;comp.Value:$59.95</p1>
-            
+
         </div>
         <div class="shirt">
-            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwf19be325/60721294_007_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg" title="Long Sleeve Colorblocked Rugby Shirt" alt="Long Sleeve Colorblocked Rugby Shirt">
+            <img src="https://www.aeropostale.com/dw/image/v2/BBSG_PRD/on/demandware.static/-/Sites-master-catalog-aeropostale/default/dwf19be325/60721294_007_main.jpg?sw=478&amp;sh=557&amp;sm=fit&amp;sfrm=jpg"
+                title="Long Sleeve Colorblocked Rugby Shirt" alt="Long Sleeve Colorblocked Rugby Shirt">
             <p class="neo">New!</p>
             <h5 class="dow">Long Sleeves Hooded Twill Button-Down Shirt</h5>
             <p1 class="computer">$16.00 &nbsp;comp.Value:$54.95</p1>
@@ -407,14 +604,116 @@
     <div>
     </div>
     <div id="head">
-     <h4>Men's Casual Button-Down Shirts</h4>
+        <h4>Men's Casual Button-Down Shirts</h4>
     </div>
     <div id="para">
-     <p1>No matter what the occasion calls for, be ready with the right button-down shirt to achieve a <br> laidback yet put-together look. Go for a trimmed and tidy style during date nights or weekend <br> outings with a men's casual button-down shirt in a solid, neutral color paired with khakis and <br> fashion sneakers. To nail a chill everyday vibe, opt for a men's button-down shirt in a trendy plaid <br> pattern.
-        <br>
-        <br>
-        Brave your way through the cold fall and winter months with a long-sleeve button-up shirt <br> designed with super-soft flannel material. Layer a basic tee underneath, and slip into your <br> favorite pair of guys' jeans to stay warm and cozy all season long. When the weather gets <br> warmer, roll up your sleeves, and wear your button-down shirt with denim or cargo shorts.    
-    </p1>
+        <p1>No matter what the occasion calls for, be ready with the right button-down shirt to achieve a <br> laidback
+            yet put-together look. Go for a trimmed and tidy style during date nights or weekend <br> outings with a
+            men's casual button-down shirt in a solid, neutral color paired with khakis and <br> fashion sneakers. To
+            nail a chill everyday vibe, opt for a men's button-down shirt in a trendy plaid <br> pattern.
+            <br>
+            <br>
+            Brave your way through the cold fall and winter months with a long-sleeve button-up shirt <br> designed with
+            super-soft flannel material. Layer a basic tee underneath, and slip into your <br> favorite pair of guys'
+            jeans to stay warm and cozy all season long. When the weather gets <br> warmer, roll up your sleeves, and
+            wear your button-down shirt with denim or cargo shorts.
+        </p1>
+    </div>
+    <div id="paragraph">
+        <p1>From versatile solids that go well with a variety of bottoms to prints and bold, geometric <br> patterns,
+            our guys' button-down shirts come in an array of options. Refresh your look by <br> browsing the collection
+            of button-ups for guys at Aéropostale today.
+            <br>
+            <br>
+            Take on the day while looking and feeling your best with the selection of button-up shirts from <br>
+            Aéropostale. Find the best variety of casual shirts for men in the latest styles to keep your look cool,
+            calm and relaxed.
+        </p1>
+    </div>
+    <div id="location">
+        <!-- <i class="fa-regular fa-location-dot"></i> -->
+        <!-- <i class="fa-duotone fa-location-dot"></i> -->
+        <i class="fa-sharp fa-solid fa-location-dot"><span>Store Locator</span></i>
+    </div>
+    <div class="order">
+        <i class="fa-solid fa-truck-fast"><span>Order Status</span></i>
+    </div>
+    <div id="gift">
+        <i class="fa-solid fa-gift"><span>Gift Cards/Balance</span></i>
+    </div>
+    <div id="feedback">
+        <i class="fa-solid fa-thumbs-up"><span>Feedback</span></i>
+    </div>
+    <div id="USD">
+        <i class="fa-sharp fa-solid fa-flag-usa"><span>United States|USD</span></i>
+    </div>
+    <div id="help">
+        <h3>Shopping Help</h3>
+    </div>
+    <div class="desk">
+        <p>Help Desk</p>
+        <p>Return & Exchanges</p>
+        <p>Prices & Price Match Policy</p>
+        <p>Shipping & Handing</p>
+        <p>Size Charts</p>
+        <p>Buy Online Pick Up in Store</p>
+        <p>Student Discount</p>
+    </div>
+    <div class="questions">
+        <h3>Questions?</h3>
+        <h4>Call Us</h4>
+        <p>1.877.289.2376</p>
+        <h4>Contact Us</h4>
+    </div>
+    <div class="about">
+        <h3>About Us</h3>
+        <p>About Aeropostale</p>
+        <p>Careers</p>
+        <p>Supply Chain</p>
+        <p>Aero Impact</p>
+    </div>
+    <div class="get">
+    <h3>Get The Latest Styles & Offers</h3>
+    <!-- <input class="srch" type="text" placeholder="Enter Email"> -->
+    </div>
+    <div class="email">
+        <input class="srch" type="text" placeholder="Enter Email">
+        <!-- <button></button> -->
+    </div>
+    <div class="for">
+        <p>
+            For more information, please see our Privacy Policy. California residents, <br> see our California  Privacy Notice and <br> Do Not Sell My Personal Information page.
+        </p>
+    </div>
+    <div class="follow">
+        <h4>
+           Follow Us 
+        </h4>
+    </div>
+    <div id="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-tiktok"></i>
+    </div>
+    <div class="sell">
+       <h4>Don't Sell My Information </h4>
+    </div>
+    <div id="use">
+        <h4>Terms of Use</h4>
+    </div>
+    <div id="statement">
+        <h4>Accessibility Statement</h4>
+    </div>
+    <div class="privacy">
+        <h4>Privacy Policy</h4>
+    </div>
+    <div class="ca">
+        <h4>CA Transparency Act</h4>
+    </div>
+    <div id="right">
+        <h4>2023 Aeropostale.All Rights Reserved</h4>
     </div>
 </body>
 </html>
